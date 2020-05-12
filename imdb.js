@@ -11,7 +11,7 @@ $.ajax({
 	
 	type:'GET',
 	dataType: 'json',
-	url: 'http://www.omdbapi.com/?i=tt3896198&apikey=30bea2aa',
+	url: 'https://www.omdbapi.com/?i=tt3896198&apikey=30bea2aa',
 	success : (data)=>
 	{
 		console.log('data',data)   
